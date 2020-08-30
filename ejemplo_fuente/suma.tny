@@ -1,0 +1,6 @@
+{Haya la suma de dos valores pedidos por teclado}
+
+<leer x />
+<leer y />
+<operacion z:=x+y />
+<escribir z/>

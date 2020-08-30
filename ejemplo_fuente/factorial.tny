@@ -1,0 +1,12 @@
+{Programa que me muestra el factorial de un numero dado por teclado}
+
+<leer x />
+<si><condicion 0 < x /><si/>
+<entonces>
+  <operacion fact := 1 />
+  <repita>
+    <operacion fact := fact * x />
+    <operacion x := x - 1 />
+  <repita/><condicion x = 0/>
+  <escribir fact />
+<entonces/>

@@ -1,0 +1,24 @@
+{Programa que haya el mayor entre tres numeros dados por teclado}
+
+<leer a/>
+<leer b/>
+<leer c/>
+<si><condicion a<b /><si/>
+<entonces>
+    <si><condicion c<b /><si/>
+    <entonces>
+        <escribir b/>
+    <sino>
+        <escribir c/>
+    <sino/>
+    <entonces/>
+<sino>
+    <si><condicion c<a /><si/>
+    <entonces>
+        <escribir a/>
+    <sino>
+        <escribir c/>
+    <sino/>
+    <entonces/>
+<sino/>
+<entonces/>

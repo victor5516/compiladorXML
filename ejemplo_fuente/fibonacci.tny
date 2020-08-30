@@ -1,0 +1,16 @@
+{Muestra la serie de Fibonacci de los primeros n terminos pedidos por teclado}
+
+<leer n/>
+<operacion a:=1 />
+<operacion b:=1 />
+<operacion cont:=0 />
+
+<escribir a/>
+<escribir b/>
+<repita>
+    <operacion c:=a+b />
+    <operacion a:=b />
+    <operacion b:=c />
+    <operacion cont:=cont+1 />    
+    <escribir c />
+<repita/><condicion cont=n-2 />
